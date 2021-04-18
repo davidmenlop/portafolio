@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="img/bg.jpg" alt="Imagen seccion home">
+        </div>
+        <div class="contentBx">
+            <h5 class="logoText">Mi_Portafolio</h5>
+            <div>
+                <h4><span>Hola</span> Soy </h4>
+                <h2>David Mendoza</h2>
+                <h4>Estudiante de Desarrollo Web.</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, numquam est, reprehenderit minima
+                    aperiam laudantium unde ea non sunt voluptatem molestias facilis optio neque dolorum temporibus
+                    vitae necessitatibus libero cumque! Voluptas distinctio ullam similique commodi esse maiores quod
+                    modi, nesciunt tempora, maxime ex!
+                    Consectetur.</p>
+                <a href="#" class="btn">Sobre Mí</a>
+            </div>
+            <ul class="social">
+                <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+                <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="sobreMi" id="sobreMi">
+        <div class="title white">
+            <h2>Sobre Mí</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="textBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vel illum corrupti. Quaerat quo animi
+                    aspernatur accusantium, doloremque voluptate quae nisi ipsum sapiente assumenda illo ab autem
+                    praesentium totam quibusdam.
+                    Ea facilis ullam accusantium deserunt optio officia delectus in at consectetur illum nisi vel
+                    corrupti iste dolorem, expedita tempore aliquam! Fuga adipisci amet facilis fugiat. Sunt repudiandae
+                    a molestiae quae!
+                    Deleniti natus voluptatibus incidunt neque non eligendi soluta reprehenderit dolorum. Architecto
+                    laboriosam nesciunt, dolorem, nostrum nihil, ullam ducimus optio tenetur perspiciatis minima
+                    adipisci tempora esse qui quas? Hic, ratione recusandae?
+                    Porro assumenda iste eveniet at aut error architecto, excepturi saepe incidunt! Numquam dolor
+                    similique temporibus blanditiis illum, quia quis harum asperiores consectetur sint facilis deserunt,
+                    rem possimus optio, quo nobis?
+                    Eveniet doloribus aliquid deserunt quisquam explicabo unde commodi numquam cumque sit molestiae,
+                    quae sed nesciunt facilis aperiam? Vitae nulla, sint, minima earum aliquam eligendi, dignissimos
+                    veniam commodi debitis temporibus quasi!a.
+                    Ab.
+                </p>
+            </div>
+            <div class="imgBx">
+                <img src="img/bg1.jpg" alt="Imagen seccion sobre mi">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobreMi">Sobre Mí</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+
+
+    <script>
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.toggle');
+            const sidebar = document.querySelector('.sidebar');
+            menuToggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
